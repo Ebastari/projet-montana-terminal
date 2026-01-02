@@ -1,0 +1,7 @@
+{
+  "name": "Montana GIS Field System",
+  "description": "An integrated GIS Field System for professional surveying and cartographic output, featuring real-time measurements and automated A4 landscape reporting.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
