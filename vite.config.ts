@@ -19,3 +19,11 @@ export default defineConfig(() => {
       }
     };
 });
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: "/projet-montana-terminal/", // <--- TAMBAHKAN BARIS INI (sesuai nama repo)
+})
